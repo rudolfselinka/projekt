@@ -10,6 +10,7 @@ if (!(Test-Path $root)) {
 $folders = @(
     "$root/assets",
     "$root/assets/css",
+    "$root/index.html",
     "$root/assets/js",
     "$root/assets/img",
     "$root/assets/data",
@@ -26,9 +27,6 @@ foreach ($folder in $folders) {
 # Soubory projektu (prázdné připravené k úpravě)
 $files = @(
     "$root/index.html",
-    "$root/rostliny.html",
-    "$root/rady.html",
-    "$root/kontakt.html",
 
     "$root/assets/css/style.css",
     "$root/assets/css/cards.css",
