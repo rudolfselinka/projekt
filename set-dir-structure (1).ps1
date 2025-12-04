@@ -26,7 +26,6 @@ foreach ($folder in $folders) {
 
 # Soubory projektu (prázdné připravené k úpravě)
 $files = @(
-    "$root/index.html",
 
     "$root/assets/css/style.css",
     "$root/assets/css/cards.css",
@@ -37,6 +36,8 @@ $files = @(
     "$root/assets/js/rostliny.js",
     "$root/assets/js/rady.js",
     "$root/assets/js/kontakt.js",
+
+     "$root/assets/html/index.html",
 
     "$root/assets/data/rostliny.json",
 
