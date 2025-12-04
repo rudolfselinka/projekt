@@ -10,7 +10,7 @@ if (!(Test-Path $root)) {
 $folders = @(
     "$root/assets",
     "$root/assets/css",
-    "$root/index.html",
+    "$root/assets/html",
     "$root/assets/js",
     "$root/assets/img",
     "$root/assets/data",
