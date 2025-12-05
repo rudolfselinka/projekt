@@ -3,77 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Atlas Rostlin</title>
-    <!-- Zde bude odkaz na assets/css/style.css, cards.css, atd. -->
-</head>
+    <title>Mini-Atlas Rostlin: Váš Průvodce Domácí Zelení</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">      <link rel="stylesheet" href="assets/css/header.css">     <link rel="stylesheet" href="assets/css/footer.css">     <link rel="stylesheet" href="assets/css/cards.css">      </head>
 <body>
 
-    <header>
-        <h1>🌿 Mini Atlas Rostlin</h1>
-        <p>Digitální průvodce pro péči a identifikaci rostlin.</p>
-        <nav>
+    <header class="main-header">
+        <div class="header-content-wrapper">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Mini-Atlas Rostlin</span>
+            </a>
+            <p class="tagline">Digitální průvodce pro péči a identifikaci rostlin.</p>
+        </div>
+        
+        <nav class="main-nav">
             <ul>
-                <li><a href="#atlas">Atlas</a></li>
-                <li><a href="#rady">Rady a tipy</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="index.html" class="nav-link current">Úvod</a></li>
+                <li><a href="rostliny.html" class="nav-link">Atlas Rostlin</a></li>
+                <li><a href="rady.html" class="nav-link">Rady a Tipy</a></li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="atlas">
-        <h3>Atlas Rostlin</h3>
-        
-        <!-- Zde se bude načítat obsah z assets/data/rostliny.json pomocí assets/js/rostliny.js -->
-        <p>Prohlédněte si naši sbírku rostlin. Každá karta obsahuje základní informace, požadavky na péči a doporučení pro pěstování.</p>
+    <main class="content-main">
 
-        <!-- Příklad jednoho "karty rostliny" -->
-        <div class="rostlina-karta">
-            <h4>Název Rostliny (Latinský název)</h4>
-            <p><strong>Péče:</strong> Středně náročná</p>
-            <p><strong>Stanoviště:</strong> Světlé, ale ne přímé slunce</p>
-            <p><strong>Zálivka:</strong> Pravidelná, ne přemokřená</p>
-        </div>
-    </section>
-
-    <section id="rady">
-        <h3>Rady a Tipy pro Péči</h3>
-        
-        <!-- Zde se bude načítat obsah z JSON nebo dynamicky generovat pomocí assets/js/rady.js -->
-        <p>Návody a doporučení, jak se vypořádat s nejčastějšími problémy při pěstování rostlin, jako je přesazování nebo boj se škůdci.</p>
-
-        <ul>
-            <li>Jak správně přesazovat pokojové rostliny.</li>
-            <li>První pomoc pro rostliny napadené mšicemi.</li>
-            <li>Doporučená zimní péče.</li>
-        </ul>
-    </section>
-
-    <section id="kontakt">
-        <h3>Kontakt</h3>
-        
-        <!-- Formulář, který bude odesílat data na php/send.php -->
-        <form action="php/send.php" method="POST">
-            <div>
-                <label for="jmeno">Jméno:</label>
-                <input type="text" id="jmeno" name="jmeno" required>
+        <section class="hero-section" id="uvod">
+            <div class="hero-overlay">
+                <h1>Objevte kouzlo pokojové zeleně</h1>
+                <p>Už žádné uvadlé listy! Najděte ideální rostlinu pro váš domov a zjistěte, jak se o ni správně starat. Jednoduché, přehledné a funkční.</p>
+                <a href="rostliny.html" class="button primary-button">Vstoupit do Atlasu</a>
             </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="zprava">Zpráva:</label>
-                <textarea id="zprava" name="zprava" rows="4" required></textarea>
-            </div>
-            <button type="submit">Odeslat dotaz</button>
-        </form>
-    </section>
+            </section>
 
-    <footer>
-        <p>Technologie: HTML, CSS, JS, JSON, PHP</p>
-        <p>&copy; 2024 Mini Atlas Rostlin. Všechna práva vyhrazena.</p>
-    </footer>
-
-    <!-- Zde bude odkaz na assets/js/main.js, rostliny.js, atd. -->
-</body>
-</html>
+        <section class="section-preview" id="atlas">
+            <h2>🌱 Atlas Rostlin: Náš Výběr</h2>
+            <p class="section-description">Prohlédněte si naši sbírku rostlin. Každá karta obsahuje **foto**, **název**, **náročnost**, a **zalévání**.</p>
+            
+            <div class="plants-preview-grid">
+                
+                <article class="plant-card preview-card" data-narocnost="Střední">
+                    <div class="card-image-placeholder
