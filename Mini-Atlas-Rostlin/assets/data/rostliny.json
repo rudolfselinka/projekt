@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nazev": "Zelenec (Chlorophytum)",
+        "latinsky": "Chlorophytum comosum",
+        "narocnost": "Nízká",
+        "zalivka": "Pravidelná, v létě hojnější. Toleruje krátkodobé sucho. Odolná.",
+        "stanoviste": "Velmi přizpůsobivý. Světlo až polostín. Rychle roste a čistí vzduch.",
+        "foto": "zelenec.jpg"
+    },
+    {
+        "id": 2,
+        "nazev": "Tchýnin Jazyk",
+        "latinsky": "Sansevieria trifasciata",
+        "narocnost": "Nízká",
+        "zalivka": "Velmi opatrná. Zalévat až po úplném vyschnutí. Snáší dlouhé sucho.",
+        "stanoviste": "Přizpůsobivá, snese málo světla i přímé slunce.",
+        "foto": "tchynin-jazyk.jpg"
+    },
+    {
+        "id": 3,
+        "nazev": "Monstera Skvostná",
+        "latinsky": "Monstera deliciosa",
+        "narocnost": "Střední",
+        "zalivka": "Pravidelná, ne přemokřit. Rosit listy. Má ráda vlhkost.",
+        "stanoviste": "Polostín/světlé místo, bez přímého slunce, které by spálilo listy.",
+        "foto": "monstera.jpg"
+    },
+    {
+        "id": 4,
+        "nazev": "Vánoční Kaktus",
+        "latinsky": "Schlumbergera truncata",
+        "narocnost": "Střední",
+        "zalivka": "V době květu hojná, jinak mírná. Nepřelití je klíčové.",
+        "stanoviste": "Světlé místo, ale ne přímé slunce. Potřebuje chladnější místo pro nasazení poupat.",
+        "foto": "vanocni-kaktus.jpg"
+    },
+    {
+        "id": 5,
+        "nazev": "Lopatkovec",
+        "latinsky": "Spathiphyllum wallisii",
+        "narocnost": "Střední",
+        "zalivka": "Hojná, substrát by měl být stále vlhký. Rostlina ukáže, když má žízeň (listy svěsí).",
+        "stanoviste": "Méně světla, polostín. Nedávat na přímé slunce.",
+        "foto": "lopatkovec.jpg"
+    }
+]
