@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    $to = "tvuj-email@seznam.cz";
+    $to = "selinka.rudolf@gmail.com";
     $subject = "Nový dotaz z Mini Atlasu";
     $body = "Od: $name\nE-mail: $email\n\nZpráva:\n$message";
 
@@ -14,4 +14,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Došlo k chybě při odesílání.";
     }
 }
+
 ?>
