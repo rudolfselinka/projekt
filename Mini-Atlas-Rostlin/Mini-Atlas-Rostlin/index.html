@@ -53,12 +53,12 @@
         <section id="kontakt" class="container">
             <div class="contact-card">
                 <h2 class="main-title">Máte dotaz?</h2>
-                <form id="contact-form" class="modern-form">
+                <form id="contact-form" action="kontakt.php" method="POST" class="modern-form">
                     <div class="form-row">
-                        <input type="text" placeholder="Jméno" required>
-                        <input type="email" placeholder="Email" required>
+                        <input type="text" name="name" id="name" placeholder="Jméno" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
                     </div>
-                    <textarea placeholder="Vaše zpráva..." rows="5" required></textarea>
+                    <textarea name="message" id="message" placeholder="Vaše zpráva..." rows="5" required></textarea>
                     <div class="btn-spacer">
                         <button type="submit" class="btn btn-filled">Odeslat zprávu</button>
                     </div>
