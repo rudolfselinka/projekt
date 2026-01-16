@@ -1,15 +1,19 @@
+/**
+ * Správa kontaktního formuláře a základní validace
+ */
 function inicializujKontakt() {
     const form = document.getElementById('contact-form');
+    if (!form) return;
     
     form.addEventListener('submit', (e) => {
-        const email = form.querySelector('input[type="email"]').value;
+        const emailInput = form.querySelector('input[type="email"]');
         
-        if (!email.includes('@')) {
+        // Jednoduchá kontrola formátu e-mailu před odesláním
+        if (!emailInput.value.includes('@')) {
             e.preventDefault();
-            alert('Prosím zadejte platný e-mail.');
+            alert('Zadejte prosím platnou e-mailovou adresu.');
         } else {
-            // Zde by mohl proběhnout AJAX odeslání, ale zatím necháme klasické PHP
-            console.log('Formulář je připraven k odeslání.');
+            console.log('Formulář připraven k odeslání na server.');
         }
     });
 }
