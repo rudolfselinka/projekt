@@ -1,0 +1,15 @@
+.main-header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #eee;
+    padding: 15px 10%;
+    position: fixed;
+    width: 80%;
+    top: 0; z-index: 1000;
+}
+.nav-container { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 700; color: var(--deep-green); }
+.logo span { color: var(--leaf-green); }
+.nav-links { display: flex; list-style: none; gap: 30px; margin: 0; }
+.nav-links a { text-decoration: none; color: var(--text-dark); font-weight: 400; transition: 0.3s; }
+.nav-links a:hover { color: var(--leaf-green); }

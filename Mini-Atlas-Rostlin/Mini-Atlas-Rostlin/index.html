@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelený Atlas | Čistý Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">🌿 <span>Mini</span>Atlas</div>
+            <ul class="nav-links">
+                <li><a href="#uvod">Domů</a></li>
+                <li><a href="#rostliny">Katalog</a></li>
+                <li><a href="#rady">Péče</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="uvod" class="hero">
+            <div class="hero-content">
+                <span class="badge">Váš digitální herbář</span>
+                <h1>Zelený domov</h1>
+                <p>Minimalistický průvodce světem pokojových rostlin a jejich pěstování.</p>
+                <div class="hero-btns">
+                    <a href="#rostliny" class="btn btn-filled">Prozkoumat atlas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="rostliny" class="container">
+            <h2 class="main-title">Katalog rostlin</h2>
+            <div id="plant-grid" class="grid">
+                </div>
+        </section>
+
+        <section id="rady" class="rady-section">
+            <div class="container">
+                <h2 class="main-title">Průvodce péčí</h2>
+                <div class="rady-grid">
+                    <div class="rady-item">
+                        <h3>☀️ Světlo a stanoviště</h3>
+                        <p>Většina rostlin miluje jasné, ale nepřímé světlo. Přímé slunce listy pálí, hluboký stín zastavuje růst.</p>
+                    </div>
+                    <div class="rady-item">
+                        <h3>💧 Pravidla zálivky</h3>
+                        <p>Zlévejte až po proschnutí horní vrstvy substrátu. Lepší je mírné sucho než neustálé přemokření kořenů.</p>
+                    </div>
+                    <div class="rady-item">
+                        <h3>🌫️ Vlhkost vzduchu</h3>
+                        <p>Tropické kousky ocení rosení nebo zvlhčovač, zejména v topné sezóně. Otírejte listy od prachu, aby kytka dýchala.</p>
+                    </div>
+                    <div class="rady-item">
+                        <h3>🌱 Substrát a výživa</h3>
+                        <p>Používejte vzdušné směsi a během jara a léta nezapomínejte na hnojení tekutým hnojivem každých 14 dní.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="container">
+            <div class="contact-card">
+                <h2 class="main-title">Máte dotaz?</h2>
+                <form class="modern-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Jméno" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <textarea placeholder="Vaše zpráva..." rows="5" required></textarea>
+                    <div class="btn-spacer">
+                        <button type="submit" class="btn btn-filled">Odeslat zprávu</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Rudolf Selinka | Projekt Mini Atlas Rostlin</p>
+    </footer>
+
+    <script src="assets/js/rostliny.js"></script>
+</body>
+</html>

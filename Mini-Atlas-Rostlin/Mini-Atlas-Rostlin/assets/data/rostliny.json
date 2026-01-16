@@ -1,0 +1,10 @@
+[
+  { "nazev": "Monstera Deliciosa", "foto": "assets/img/monstera.jpg", "popis": "Král pokojových rostlin s velkými děrovanými listy. Potřebuje dostatek prostoru a oporu pro růst.", "narocnost": "Snadná" },
+  { "nazev": "Ficus Lyrata", "foto": "assets/img/ficus.jpg", "popis": "Houslový fíkus je elegantní kousek s listy ve tvaru lyry. Miluje světlé místo bez přímého slunce.", "narocnost": "Střední" },
+  { "nazev": "Sansevieria", "foto": "assets/img/sansevieria.jpg", "popis": "Tchynin jazyk je téměř nezničitelný. Čistí vzduch a zvládne i tmavé kouty vašeho bytu.", "narocnost": "Velmi snadná" },
+  { "nazev": "Zamioculcas", "foto": "assets/img/zamioculcas.jpg", "popis": "Rostlina s voskovými listy, která přežije i měsíce bez vody. Ideální do kanceláří.", "narocnost": "Velmi snadná" },
+  { "nazev": "Calathea Orbifolia", "foto": "assets/img/calathea.jpg", "popis": "Vyznačuje se širokými listy s úžasnou kresbou. Vyžaduje vyšší vlhkost vzduchu a polostín.", "narocnost": "Vysoká" },
+  { "nazev": "Pilea Peperomioides", "foto": "assets/img/pilea.jpg", "popis": "Palačinková kytka pro štěstí. Rychle roste a snadno se množí pomocí malých odnoží.", "narocnost": "Snadná" },
+  { "nazev": "Strelitzia Nicolai", "foto": "assets/img/strelitzia.jpg", "popis": "Obří listy připomínající banánovník. Tato kytka dodá vašemu interiéru skutečný tropický nádech.", "narocnost": "Střední" },
+  { "nazev": "Alocasia Polly", "foto": "assets/img/alocasia.jpg", "popis": "Dramatické listy s výraznou bílou žilnatinou. Je to klenot každé sbírky pokojovek.", "narocnost": "Střední" }
+]
