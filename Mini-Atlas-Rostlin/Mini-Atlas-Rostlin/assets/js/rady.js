@@ -1,23 +1,25 @@
+/**
+ * Generování tipů pro péči o rostliny do gridu
+ */
 function vykresliRady() {
     const tipsList = document.getElementById('tips-list');
-    const rady = [
-        { titul: "Světlo", text: "Většina pokojovek miluje nepřímé sluneční světlo. Pozor na úpal!" },
-        { titul: "Vlhkost", text: "V zimě rostliny roste rozprašovačem, suchý vzduch z topení jim nesvědčí." },
-        { titul: "Přesazování", text: "Ideální čas na nový květináč je jaro, kdy rostliny začínají růst." }
+    if (!tipsList) return;
+
+    const dataRady = [
+        { titul: "☀️ Světlo a stanoviště", text: "Většina rostlin miluje jasné, ale nepřímé světlo. Přímé slunce listy pálí." },
+        { titul: "💧 Pravidla zálivky", text: "Zlévejte až po proschnutí horní vrstvy substrátu. Pozor na přemokření." },
+        { titul: "🌫️ Vlhkost vzduchu", text: "Tropické kousky ocení rosení, zejména během zimní topné sezóny." },
+        { titul: "🌱 Substrát a výživa", text: "Používejte vzdušné směsi a během léta hnojte každých 14 dní." }
     ];
 
-    tipsList.innerHTML = '';
-    
-    rady.forEach(rada => {
-        const tipDiv = document.createElement('div');
-        tipDiv.style.marginBottom = '20px';
-        tipDiv.innerHTML = `
-            <h3 style="color: var(--primary-color)">${rada.titul}</h3>
+    // Vykreslení elementů s čistou strukturou
+    tipsList.innerHTML = dataRady.map(rada => `
+        <div class="rady-item">
+            <h3>${rada.titul}</h3>
             <p>${rada.text}</p>
-        `;
-        tipsList.appendChild(tipDiv);
-    });
+        </div>
+    `).join('');
 }
 
-// Export do globálního prostoru
+// Export funkce do globálního prostoru pro main.js
 window.vykresliRady = vykresliRady;
